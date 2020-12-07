@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  >div.left{
+    width: 210px;
+    border-right: 2px solid #ffffff;
+  }
+  >div.right{
+    flex: 1;
+    padding-left: 24px;
+  }
+  .title{
+    font-size: 20px;
+    color: #333333;
+    margin-top: 4px;
+    margin-bottom: 12px;
+  }
+}
+.input-container{
+  :global{
+    .input-content{
+      display: inline-flex;
+      >input{
+        flex: 1
+      }
+      >span{
+        width: 120px;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.uploadDragger {
+  :global {
+      .ant-upload-drag-container {
+          font-size: 12px;
+          .ant-upload-drag {
+              padding: 18px 0;
+          }
+          .ant-upload-drag-text {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #6C80E5;
+              margin-bottom: 0;
+              .anticon {
+                  font-size: 22px;
+                  margin-right: 6px;
+              }
+          }
+          .ant-upload-tip {
+              color:rgba(136,136,136,1);
+              line-height: 17px;
+              margin-top: 4px;
+          }
+      }
+    .anticon-paper-clip {
+      display: none;
+    }
+    .ant-upload-list-item{
+      height: 26px;
+      border-radius: 4px;
+      overflow: hidden;
+      .ant-upload-list-item-info{
+        padding: 0;
+        background: #fff;
+      }
+      
+    }
+    .ant-upload-list-item-name {
+      height: 26px;
+      line-height: 24px;
+      border-radius: 2px 0 0 2px;
+      border: 1px solid rgba(221, 221, 221, 1);
+      padding: 0 10px;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(54, 54, 54, 1);
+      padding-right: 25px;
+      color: rgba(108, 128, 229, 1);
+      &:hover {
+        
+      //   text-decoration: underline;
+      }
+    }
+    .anticon-close{
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      opacity: 1;
+      border-left: 1px solid rgba(221,221,221,1);
+      top: -2px;
+      right: -1px;
+    }
+  }
+}

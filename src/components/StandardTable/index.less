@@ -1,0 +1,66 @@
+.standardTable {
+  :global {
+    .ant-pro-table {
+      .ant-pro-table-search {
+        padding-top: 10px;
+        .ant-form-item {
+          margin-bottom: 10px;
+          .ant-form-item-label {
+            min-width: 100px;
+          }
+          // 防止超长内容换行掉下来
+          .ant-form-item-control {
+            width: 60%;
+          }
+        }
+        .nostyle {
+          .ant-form-item-control {
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+      }
+      .ant-pro-table-toolbar {
+        .ant-space-item {
+          button + button {
+            margin-left: 16px;
+          }
+        }
+      }
+      .ant-pro-table-alert {
+        .table-alert-batch {
+          display: flex;
+          .total {
+            font-weight: bold;
+            padding-left: 8px;
+            padding-right: 8px;
+          }
+          .batch-btn {
+            padding-left: 32px;
+            button + button {
+              margin-left: 16px;
+            }
+          }
+        }
+      }
+      
+    }
+    .ant-pro-table-toolbar-title {
+      display: none;
+    }
+    .ant-pro-table-toolbar-option {
+      flex: 1;
+      justify-content: space-between;
+    }
+    .ant-table-container table > thead > tr:first-child th:first-child{
+      padding-left: 24px;
+    }
+    td.option {
+      a + a {
+        border-left: 1px solid #ddd;
+        margin-left: 8px;
+        padding-left: 8px;
+      }
+    }
+  }
+}

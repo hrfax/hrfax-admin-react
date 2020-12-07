@@ -1,0 +1,39 @@
+
+.baseModal {
+  // background: #fff; 
+  .footer {
+    text-align: center;
+  }
+  
+}
+:global {
+  .ant-modal-wrap {
+    .ant-form-inline {
+      .ant-row {
+        // inline模式 重置成左右分各一半 proTable生成的form会固定添加24
+        .ant-col-xs-24, 
+        .ant-col-sm-24, 
+        .ant-col-md-24, 
+        .ant-col-lg-24, 
+        .ant-col-xl-24, 
+        .ant-col-xxl-24 {
+          width: unset !important;
+          flex: 0 0 50% !important;
+        }
+        .ant-form-item > .ant-form-item-label {
+          flex: auto;
+        }
+      }
+      
+    }
+    .ant-form-horizontal ,.ant-modal{
+      .ant-form-item-label {
+        min-width: 90px;
+      }
+    }
+    // 隐藏弹窗里的表格搜索条件
+    .ant-pro-table-search-option {
+      display: none;
+    }
+  }
+}

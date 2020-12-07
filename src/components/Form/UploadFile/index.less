@@ -1,0 +1,45 @@
+.fileUpload {
+  :global {
+    .anticon-paper-clip {
+      display: none;
+    }
+    .ant-upload-list-item{
+      height: 26px;
+      .ant-upload-list-item-info{
+        padding: 0;
+      }
+      &:hover{
+        .ant-upload-list-item-info{
+          background: none;
+        }
+      }
+    }
+    .ant-upload-list-item-name {
+      height: 26px;
+      line-height: 24px;
+      background: rgba(250, 250, 250, 1);
+      border-radius: 2px 0 0 2px;
+      border: 1px solid rgba(221, 221, 221, 1);
+      padding: 0 10px;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(54, 54, 54, 1);
+      padding-right: 25px;
+      &:hover {
+        color: rgba(108, 128, 229, 1);
+        text-decoration: underline;
+      }
+    }
+    .anticon-close{
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      opacity: 1;
+      background: rgba(250,250,250,1);
+      border-radius: 0px 2px 2px 0px;
+      border: 1px solid rgba(221,221,221,1);
+      top: -2px;
+      right: -1px;
+    }
+  }
+}
