@@ -8,8 +8,6 @@
 const { APP_ROLE='admin' } = process.env;
 const proxyMap = {
   admin:'http://192.168.0.104:9101',
-  funder:'http://192.168.0.104:9102',
-  organ:'http://192.168.0.104:9103',
 }
 export default {
   dev: {

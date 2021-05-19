@@ -49,7 +49,7 @@ const Login: React.FC<LoginProps> = (props) => {
       <img src={diPng}/>
       <div className={styles.loginBox}>
         <div>
-        <h4>汽车分期短期融资业务管理平台</h4>
+        <h4>hrfax管理平台</h4>
         <Form
           name="normal_login"
           className="login-form"

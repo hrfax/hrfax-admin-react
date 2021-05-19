@@ -5,8 +5,7 @@ import { ConnectState } from '@/models/connect';
 import { TableSet, RemoteSelect } from '@/components/Form'
 import { PageHeaderWrapper } from '@ant-design/pro-layout'
 import { Card } from './component'
-import * as services from '@/services/modelSet'
-// import { queryDict } from '@/services/setting'
+import * as services from '@/services/setting'
 import * as CONST from '@/utils/constants';
 import styles from './index.less'
 

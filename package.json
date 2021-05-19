@@ -1,14 +1,12 @@
 {
   "name": "hrfax-admin-react",
-  "version": "4.0.0",
+  "version": "1.0.0",
   "private": true,
   "description": "An out-of-box UI solution for enterprise applications",
   "scripts": {
     "analyze": "cross-env ANALYZE=1 umi build",
     "build": "umi generate tmp && umi build",
-    "build-funder": "umi generate tmp && cross-env APP_ROLE=funder umi build",
-    "build-organ": "umi generate tmp && cross-env APP_ROLE=organ umi build",
-    "build:dev": "cross-env REACT_APP_ENV=dev APP_ROLE=admin  umi build",
+    "build:dev": "cross-env REACT_APP_ENV=dev  umi build",
     "build:test": "cross-env REACT_APP_ENV=test umi build",
     "build:pre": "cross-env REACT_APP_ENV=pre umi build",
     "deploy": "npm run site && npm run gh-pages",
@@ -26,7 +24,6 @@
     "lint:style": "stylelint --fix \"src/**/*.less\" --syntax less",
     "prettier": "prettier -c --write \"**/*\"",
     "start": "umi dev",
-    "start:dev": "cross-env REACT_APP_ENV=dev APP_ROLE=admin MOCK=none umi dev",
     "start:no-mock": "cross-env MOCK=none umi dev",
     "start:no-ui": "cross-env UMI_UI=none umi dev",
     "start:pre": "cross-env REACT_APP_ENV=pre umi dev",
@@ -125,5 +122,6 @@
     "src/**/*.less",
     "config/**/*.js*",
     "scripts/**/*.js"
-  ]
+  ],
+  "__npminstall_done": false
 }

@@ -49,35 +49,9 @@ export const BANKLIST = [
   { label: '平安银行', value: 21}
   
 ]
-// 短融状态
-export const DRSTATUS = [
-  {label:'已创建', value:1},
-  {label:'等待资方审批', value:2},
-  {label:'资方审批拒绝', value:16},
-  {label:'资方审批通过', value:15},
-  {label:'已放款', value:21},
-  {label:'计息中', value:30},
-  {label:'逾期', value:31},
-  {label:'已回款', value:99},
-]
 
-// 短融状态Step
-export const DRSTATUSFORSTEP = [
-  {label:'垫资申请', value:1, step:1},
-  {label:'系统审批', value:2, step:2},
-  {label:'系统审批', value:10, step:2},
-  {label:'系统审批', value:11, step:2,status:'error'},
-  {label:'资方审批', value:15, step:3},
-  {label:'资方审批', value:16, step:3,status:'error'},
-  {label:'上传放款凭证', value:21, step:4},
-  {label:'开始计息', value:30, step:5},
-  {label:'开始计息', value:35, step:5},
-  // {label:'逾期', value:31, step:5},
-  {label:'上传还款凭证', value:201, step:6},
-  {label:'凭证审批', value:202, step:7},
-  {label:'凭证审批', value:203, step:7},
-  {label:'回款', value:99, step:8},
-]
+
+
 // 分期业务状态
 export const INSTALLMENTBUSINESSSTATUSSTEP = [
   {label:'征信进件', value:2,step:1},
@@ -103,11 +77,6 @@ export const TRADETYPE = [
   { label: '充值', value: 1},
   { label: '冲正', value: 2},
   { label: '支出', value: 3},
-]
-// 可申请短融起始节点
-export const APPLYFORNODE = [
-  { label: '征信准入通过', value: 1},
-  { label: '分期进件完成', value: 2},
 ]
 // 资方审核状态 
 export const FUNDERAUDITSTATUS = [

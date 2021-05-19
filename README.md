@@ -1,4 +1,4 @@
-# 短融管理平台
+# hrfax管理平台
 
 This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
 
@@ -51,15 +51,6 @@ npm run lint:fix
 ```bash
 npm test
 ```
-### 部署地址
-http://192.168.0.39:8080/jenkins/job/%E7%9F%AD%E8%9E%8D-%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0-%E5%89%8D%E7%AB%AF102/
-
-## 开发访问地址
-http://192.168.0.102:3099
-## 测试访问地址
-http://192.168.0.102:3104
-## 预发访问地址
-http://192.168.0.102:3110
 
 ### 简单约束
 ## 列表返回格式

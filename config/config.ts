@@ -28,7 +28,7 @@ export default defineConfig({
     APP_ROLE,
   },
   // umi routes: https://umijs.org/docs/routing
-  routes: routes[APP_ROLE],
+  routes: routes,
   // Theme for antd: https://ant.design/docs/react/customize-theme-cn
   theme: {
     // ...darkTheme,
